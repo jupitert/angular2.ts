@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular 2 Seed Project
 
 ## Description
@@ -27,3 +28,6 @@ npm start
 ```
 
 4: Visit localhost:3000 (default) if the tab hasn't opened automatically
+=======
+# angular2.ts
+>>>>>>> e111aa2d9d44c611de2258d72f96e3edc742134b
