@@ -1,0 +1,159 @@
+//body {
+//  padding: 32px;
+//  margin: 32px;
+//  font-family: "Roboto", Arial, sans-serif;
+//  font-size: 16px;
+//  background: #fff;
+//}
+//.name-holder{
+//  padding:10px;
+//  background: #e9e9e9;
+//}
+//.puzzle-holder{
+//
+//  padding:10px;
+//  margin-top:10px;
+//}
+//.name{
+//  font-weight:bold;
+//}
+//.puzzle{
+//  background: #d3d3d3;
+//}
+//.solved{
+//  background:#00AA00;
+//}
+//.red{
+//color:red;
+//}
+//.parent{
+//  background-color: #e9e9e9;
+//  padding:5px;
+//  border:1px solid #ccc;
+//  .child{
+//    border:1px solid #000;
+//    background: #d2d2d2;
+//    padding:5px;
+//  }
+//}
+//
+//.container{
+//  padding:16px;
+//  border:1px solid #ccc;
+//  background: #eee;
+//  margin-bottom:30px;
+//
+//    div{
+//      display: block;
+//      margin-bottom:10px;
+//    }
+//
+//}
+//button{
+//  padding:8px;
+//  border:1px solid #ccc;
+//}
+//.highlight{
+//  font-weight:bold;
+//}
+//.directive{
+//  padding:15px;
+//  background:#4A90E2;
+//  margin:5px;
+//}
+
+$mainColor: #1351af;
+$width: 60%;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+
+}
+
+header {
+  background-color: $mainColor;
+  padding: 16px 0;
+}
+
+header .brand {
+  width: $width;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main {
+  width: $width;
+  margin: 32px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.input {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.input input,
+.input label {
+  font-size: inherit;
+  display: block;
+}
+
+button {
+  font-size: inherit;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+button.danger {
+  background-color: #ff3a3d;
+  color: white;
+  border: 1px solid red;
+}
+
+button.danger:hover {
+  background-color: #b8282a;
+  border: 1px solid red;
+}
+
+section {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid black;
+}
+
+section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#item-amt {
+  width: 55px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: blue;
+  font-weight: bold;
+}
